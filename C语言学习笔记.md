@@ -8,7 +8,7 @@
 
 尤其是除以和取余数，是/而不是\
 
-![image-20230225163351912](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230225163351912.png)
+![image-20230225163351912](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230225163351912.png)
 
 ## 1.2 一个基本的程序结构
 
@@ -41,19 +41,19 @@ int main(){
 
 ### 1.C99与ANSI对比：变量声明与赋值
 
-![image-20230225170845370](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230225170845370.png)
+![image-20230225170845370](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230225170845370.png)
 
 ### 2.练习题
 
 
 
-![image-20230225170618400](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230225170618400.png)
+![image-20230225170618400](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230225170618400.png)
 
-![image-20230225170631528](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230225170631528.png)
+![image-20230225170631528](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230225170631528.png)
 
 #### 2.1 对于上面的第4题：
 
-![image-20230225170754021](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230225170754021.png)
+![image-20230225170754021](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230225170754021.png)
 
 #### 2.2 对于scanf的使用：
 
@@ -61,13 +61,13 @@ int main(){
 
 2. 对于scanf（”%d %d“,&a,&b）;  和scanf（”%d，%d“,&a,&b）;    需要说明的是：
 
-   ![image-20230225191547604](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230225191547604.png)
+   ![image-20230225191547604](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230225191547604.png)
 
    
 
    在scanf中加上逗号最直接的影响是：
 
-![image-20230225191606106](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230225191606106.png)
+![image-20230225191606106](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230225191606106.png)
 
 我们在应用scanf的时候也要记得加上逗号，
 
@@ -92,19 +92,19 @@ int main(){
 
 就是5个算术运算符+-*/%可以和=结合起来（之间没有空格）
 
-**![image-20230226152153850](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230226152153850.png)**
+**![image-20230226152153850](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230226152153850.png)**
 
 ### 3.此外还有递增递减运算符：
 
-![image-20230226152219777](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230226152219777.png)
+![image-20230226152219777](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230226152219777.png)
 
 同样的递增递减也可以作为前缀或者后缀：
 
-![image-20230226152241299](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230226152241299.png)
+![image-20230226152241299](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230226152241299.png)
 
 以下是输出示例可以帮助你理解：
 
-**![image-20230226153342425](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230226153342425.png)**
+**![image-20230226153342425](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230226153342425.png)**
 
 就是a++和++a，只要使用就算是a已经改变了；但是你可以理解为如果使用赋值=号的话
 
@@ -120,25 +120,25 @@ a++得到的是a在加一操作之前的值，就是先赋值给b，再a加一�
 
 关系运算的相关知识：
 
-![image-20230226162126374](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230226162126374.png)
+![image-20230226162126374](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230226162126374.png)
 
-![image-20230226162143279](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230226162143279.png)
+![image-20230226162143279](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230226162143279.png)
 
-**![image-20230226162148838](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230226162148838.png)**
+**![image-20230226162148838](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230226162148838.png)**
 
 ## 一个例题
 
-![image-20230226164118821](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230226164118821.png)
+![image-20230226164118821](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230226164118821.png)
 
 ## 3.2 分支
 
 对于switch的一个比较好的理解就是case代表的是你switch语句块中的开始位置，而break就是其中的停止标志！
 
-![image-20230226165209465](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230226165209465.png)
+![image-20230226165209465](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230226165209465.png)
 
 这是一个很好的例子：没有break就会一直运行下去
 
-![image-20230226170629664](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230226170629664.png)
+![image-20230226170629664](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230226170629664.png)
 
 第四节，循环
 
@@ -148,34 +148,33 @@ a++得到的是a在加一操作之前的值，就是先赋值给b，再a加一�
 
 对于for循环的深度解析是：
 
-> ![image-20230226193119484](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230226193119484.png)
+> ![image-20230226193119484](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230226193119484.png)
 
 相关的区别也可以在这里看：
 
-![image-20230226193710001](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230226193710001.png)
+![image-20230226193710001](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230226193710001.png)
 
 ## 4、5.1 三种循环的对比
 
 while、do while、for
 
-![image-20230226193959014](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230226193959014.png)
+![image-20230226193959014](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230226193959014.png)
 
-![image-20230226194006794](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230226194006794.png)
+![image-20230226194006794](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230226194006794.png)
 
 ### 相关例题：
 
-![image-20230226194513336](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230226194513336.png)
+![image-20230226194513336](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230226194513336.png)
 
 ### 相关代码输出：
 
-![image-20230226195401086](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230226195401086.png)
+![image-20230226195401086](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230226195401086.png)
 
 
 
 > ## i++与++i
 >
 > 有关i++与++i，总的来说结果都是i加了1，但是不同的是涉及到赋值或者比较的时候，i++“返回”的是加1之前的值而++i“返回”的是加一之后的值。
->
 
 
 
@@ -193,13 +192,13 @@ while、do while、for
 >    C语⾔言的变量，必须：
 >    • 在使⽤用前定义，并且
 >    • 确定类型
-> 2.  C以后的语⾔言向两个⽅方向发展：
+> 2. C以后的语⾔言向两个⽅方向发展：
 >    • C++/Java更强调类型，对类型的检查更严格
 >    • JavaScript、Python、PHP不看重类型，甚⾄至不需要事先定义
 
 关于类型安全的两种论调：（我是觉得没有必要的）
 
-> ![image-20230227150010449](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227150010449.png)
+> ![image-20230227150010449](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227150010449.png)
 
 ##  6.0引言
 
@@ -207,62 +206,62 @@ while、do while、for
 
 4大类，整数、浮点数、指针、自定义（其实逻辑相当于整数）
 
-> ![image-20230227150147490](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227150147490.png)
+> ![image-20230227150147490](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227150147490.png)
 
 ### 下面比较不同类型的不同之处：
 
-> ![image-20230227150532039](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227150532039.png)
+> ![image-20230227150532039](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227150532039.png)
 
 ### 关于sizeof()：
 
 C语言中有一个给出大小的函数sizeof，返回的是字节数
 
-> ![image-20230227150718333](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227150718333.png)
+> ![image-20230227150718333](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227150718333.png)
 
 有关sizeof一个很重要的地方就是其为“静态运算符”，其内部不做运算，编译的时候已经完成。
 
-> ![image-20230227151000313](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227151000313.png)
+> ![image-20230227151000313](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227151000313.png)
 
 下面是一段代码示例：
 
 
-> ![image-20230227151050494](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227151050494.png)
+> ![image-20230227151050494](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227151050494.png)
 
 但是要注意的是，这里是会知道a+1.0会变成double类型的。
 
-![image-20230227151203142](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227151203142.png)
+![image-20230227151203142](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227151203142.png)
 
 ## 6.1 整数：
 
 ### 1基本知识
 
-![image-20230227151326802](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227151326802.png)
+![image-20230227151326802](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227151326802.png)
 
 其实int就是一个字长，就是表示的一个寄存器的大小。
 
-![image-20230227151552689](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227151552689.png)
+![image-20230227151552689](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227151552689.png)
 
 ### 2整数的内部表示
 
-![image-20230227153435259](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227153435259.png)
+![image-20230227153435259](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227153435259.png)
 
 #### 使用补码进行负数表示：
 
-![image-20230227154854337](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227154854337.png)
+![image-20230227154854337](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227154854337.png)
 
 #### 所以一个数的表达范围：
 
-![image-20230227154919891](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227154919891.png)
+![image-20230227154919891](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227154919891.png)
 
 就是n位的范围为负的2的n-1次方到2的n-1次方减一。
 
 #### 对于unsigned
 
-![image-20230227155100964](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227155100964.png)
+![image-20230227155100964](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227155100964.png)
 
 #### 8进制与16进制：
 
-![image-20230227155229858](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227155229858.png)
+![image-20230227155229858](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227155229858.png)
 
 ## 6.2 浮点数double与float：
 
@@ -270,59 +269,59 @@ C语言中有一个给出大小的函数sizeof，返回的是字节数
 
 其实还是4字节、8字节
 
-![image-20230227155809907](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227155809907.png)
+![image-20230227155809907](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227155809907.png)
 
 有一点书printf输出都是%f但是scanf的时候不一样。 
 
-![image-20230227160313024](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227160313024.png)
+![image-20230227160313024](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227160313024.png)
 
 另外%e的意思是科学计数法：
 
-![image-20230227160422047](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227160422047.png)
+![image-20230227160422047](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227160422047.png)
 
 就是 几 乘以 十的几次方
 
 ### 关于有效位数：
 
-![image-20230227161742273](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227161742273.png)
+![image-20230227161742273](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227161742273.png)
 
 ### float的==判断
 
 有可能失败！因而我们使用差小于一个很小的数进行判定。
 
-![image-20230227161804755](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227161804755.png)
+![image-20230227161804755](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227161804755.png)
 
 ### 这样的原因是浮点数的编码形式：
 
 计算有相应的硬件，不是以二进制数表示的。
 
-![image-20230227162110808](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227162110808.png)
+![image-20230227162110808](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227162110808.png)
 
-![image-20230227162121101](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227162121101.png)
+![image-20230227162121101](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227162121101.png)
 
 ## 6.3 字符类型：
 
-![image-20230227163004847](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227163004847.png)
+![image-20230227163004847](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227163004847.png)
 
 ### tips：
 
 在scanf的时候，如果预留空格的话会“吃”空格，但是不留的话你在终端输入录入的时候注意不录入的数不能用空格分开
 
-![image-20230227162745335](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227162745335.png)
+![image-20230227162745335](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227162745335.png)
 
 ## 6.4 逃逸字符：
 
-![image-20230227163649533](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227163649533.png)
+![image-20230227163649533](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227163649533.png)
 
-![image-20230227163700394](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227163700394.png)
+![image-20230227163700394](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227163700394.png)
 
 ### 一道例题：
 
-![image-20230227183919649](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227183919649.png)
+![image-20230227183919649](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227183919649.png)
 
 ### 对应解答：
 
-![image-20230227184030127](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227184030127.png)
+![image-20230227184030127](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227184030127.png)
 
 
 
@@ -330,45 +329,45 @@ C语言中有一个给出大小的函数sizeof，返回的是字节数
 
 ### 自动的：
 
-![image-20230227182156220](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227182156220.png)
+![image-20230227182156220](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227182156220.png)
 
-![image-20230227182237830](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227182237830.png)
+![image-20230227182237830](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227182237830.png)
 
 ### 强制类型转化：
 
 你可以把强制类型转化理解成为一种计算！
 
-![image-20230227183238406](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227183238406.png)
+![image-20230227183238406](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227183238406.png)
 
 就是你是用这个的时候总得有个值“接着”它。
 
-![image-20230227183426985](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227183426985.png)
+![image-20230227183426985](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227183426985.png)
 
 ## 6.6 逻辑类型（布尔类型）：
 
 ### 1.基本定义
 
-![image-20230227165812754](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227165812754.png)
+![image-20230227165812754](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227165812754.png)
 
-![image-20230227165819582](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227165819582.png)
+![image-20230227165819582](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227165819582.png)
 
 ### 需要注意的是，所谓C语言中的布尔类型其实实际上还是int型的。
 
-![image-20230227185201954](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227185201954.png)
+![image-20230227185201954](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227185201954.png)
 
 ### 2.逻辑运算
 
 ！ &&  ||
 
-![image-20230227194232712](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227194232712.png)
+![image-20230227194232712](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227194232712.png)
 
 其实&&就是并且；而||意思就是或！
 
 相关的例子：
 
-> ![image-20230227194440059](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227194440059.png)
+> ![image-20230227194440059](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227194440059.png)
 >
-> ![image-20230227194458698](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227194458698.png)
+> ![image-20230227194458698](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227194458698.png)
 >
 > 需要一直认识到的是char字符其实也代表了一个int型的整数。
 
@@ -376,35 +375,35 @@ C语言中有一个给出大小的函数sizeof，返回的是字节数
 
 > 其实就是记住这个就行。
 >
-> ![image-20230227194635019](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227194635019.png)
+> ![image-20230227194635019](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227194635019.png)
 >
 > 
 
 > 然后赋值运算就是优先级最低的。
 >
-> ![image-20230227194650567](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227194650567.png)
+> ![image-20230227194650567](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227194650567.png)
 
 #### 关于逻辑运算的短路
 
-> ![image-20230227194917982](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227194917982.png)
+> ![image-20230227194917982](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227194917982.png)
 
 #### 条件运算符
 
-> ![image-20230227195103160](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227195103160.png)
+> ![image-20230227195103160](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227195103160.png)
 >
-> ![image-20230227195108922](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227195108922.png)
+> ![image-20230227195108922](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227195108922.png)
 
 #### 逗号运算符的示例
 
-![image-20230227200039110](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227200039110.png)
+![image-20230227200039110](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227200039110.png)
 
-![image-20230227195954624](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227195954624.png)
+![image-20230227195954624](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227195954624.png)
 
-![image-20230227200012975](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227200012975.png)
+![image-20230227200012975](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227200012975.png)
 
 唯一的使用就是在for中：
 
-![image-20230227200028425](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227200028425.png)
+![image-20230227200028425](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227200028425.png)
 
 # 阶段性习题：
 
@@ -412,35 +411,35 @@ C语言中有一个给出大小的函数sizeof，返回的是字节数
 
 ## 1.
 
-![image-20230227203211488](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227203211488.png)
+![image-20230227203211488](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227203211488.png)
 
 ## 2.
 
 其实C项是对的，但是你得看输出的格式是%d啊！
 
-![image-20230227203223188](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227203223188.png)
+![image-20230227203223188](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227203223188.png)
 
 ## 3.
 
 这个得注意！
 
-![image-20230227203529181](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227203529181.png)
+![image-20230227203529181](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227203529181.png)
 
 相关的解析：
 
-![image-20230227204147535](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227204147535.png)
+![image-20230227204147535](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227204147535.png)
 
 实际上真正等价的是：
 
-![image-20230227204231947](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227204231947.png)
+![image-20230227204231947](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227204231947.png)
 
 ## 4.
 
-![image-20230227204405572](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227204405572.png)
+![image-20230227204405572](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227204405572.png)
 
 这其实是个很蠢的问题你懂不！
 
-![image-20230227204423395](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227204423395.png)
+![image-20230227204423395](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227204423395.png)
 
 # 第七节：函数
 
@@ -454,19 +453,19 @@ C语言中有一个给出大小的函数sizeof，返回的是字节数
 
 ### 1.基本定义
 
-![image-20230227204848440](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227204848440.png)
+![image-20230227204848440](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227204848440.png)
 
-![image-20230227205137886](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227205137886.png)
+![image-20230227205137886](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227205137886.png)
 
-![image-20230227205314603](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227205314603.png)
+![image-20230227205314603](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227205314603.png)
 
 ### 2.从函数中返回
 
-![image-20230227205347789](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227205347789.png)
+![image-20230227205347789](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227205347789.png)
 
-![image-20230227205356826](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227205356826.png)
+![image-20230227205356826](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227205356826.png)
 
-![image-20230227205405534](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227205405534.png)
+![image-20230227205405534](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227205405534.png)
 
 ## 7.2  函数的参数与变量
 
@@ -474,47 +473,47 @@ C语言中有一个给出大小的函数sizeof，返回的是字节数
 
 就是我得知道你需要什么，我可以先不知道你里面干啥，ok？
 
-![image-20230227205925676](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227205925676.png)
+![image-20230227205925676](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227205925676.png)
 
 因而除了写在main上面，也可以这么写：
 
 就是先声名函数原型。
 
-![image-20230227210058974](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227210058974.png)
+![image-20230227210058974](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227210058974.png)
 
 ### 2.C语言函数的不足
 
 类型不匹配检查不严格。
 
-![image-20230227210611015](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227210611015.png)
+![image-20230227210611015](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227210611015.png)
 
 C语言函数里面的参数永远都是承接值。
 
 就是调用函数永远传值不传变量。
 
-![image-20230227210628731](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227210628731.png)
+![image-20230227210628731](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227210628731.png)
 
 对于这一点我们有
 
 ### 形参与实参：
 
-![image-20230227210811187](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227210811187.png)
+![image-20230227210811187](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227210811187.png)
 
 ### 3.本地变量
 
-![image-20230227210940271](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227210940271.png)
+![image-20230227210940271](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227210940271.png)
 
 #### a.变量的生存期和作用域以“块”为界。
 
-![image-20230227222116849](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227222116849.png)
+![image-20230227222116849](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227222116849.png)
 
 一个很简单的例子：
 
-![image-20230227222211109](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227222211109.png)
+![image-20230227222211109](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227222211109.png)
 
 #### b.本地变量的规则。
 
-![image-20230227222239007](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227222239007.png)
+![image-20230227222239007](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227222239007.png)
 
 就是外面的块可以由里面的访问使用=>块中块也是作用域;
 
@@ -524,13 +523,13 @@ C语言函数里面的参数永远都是承接值。
 
 ### 4.main()是什么
 
-![image-20230227230830850](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227230830850.png)
+![image-20230227230830850](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227230830850.png)
 
 ### 一道错题
 
 告诉你形参括号里面啥都没写表示未知，意思就是什么都有可能。
 
-![image-20230227231638600](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230227231638600.png)
+![image-20230227231638600](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230227231638600.png)
 
 # 第八节：数组
 
@@ -540,17 +539,17 @@ C语言函数里面的参数永远都是承接值。
 
 定义数组就是加个方括号，里面的数字代表数组的容量大小。
 
-![image-20230228091104276](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230228091104276.png)
+![image-20230228091104276](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230228091104276.png)
 
 ### b.数组的特点
 
 一共有三个，后两个很重要；本质重要的是数组中的元素在内存中连续存放，因而不能随意改变大小（在创建之后就已经分配了相应的内存空间了）
 
-![image-20230228091342116](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230228091342116.png)
+![image-20230228091342116](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230228091342116.png)
 
 注意的是数组的下标从0开始：
 
-![image-20230228091743343](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230228091743343.png)
+![image-20230228091743343](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230228091743343.png)
 
 这个设置的原因就是下标索引从0开始对编译器来说可以省很多事情。
 
@@ -580,21 +579,21 @@ C语言函数里面的参数永远都是承接值。
 >
 > 上面解释得再多其实都算不上压倒性的证明，说数组起始编号非 0 开始不可。所以我觉得最主要的原因可能是历史原因。C 语言设计者用 0 开始计数数组下标，之后的 Java、JavaScript 等高级语言都效仿了 C 语言，或者说，为了在一定程度上减少 C 语言程序员学习 Java 的学习成本，因此继续沿用了从 0 开始计数的习惯。实际上，很多语言中数组也并不是从 0 开始计数的，比如 Matlab。甚至还有一些语言支持负数下标，比如 Python。
 
-![image-20230228092432651](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230228092432651.png)
+![image-20230228092432651](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230228092432651.png)
 
 这个可以理解为动态数组，因为编译的时候大小未知运行的时候大小才已知。
 
 但是同样的，数组创建之后就不可以改变了。
 
-![image-20230228092623925](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230228092623925.png)
+![image-20230228092623925](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230228092623925.png)
 
 ### c.一个小知识
 
 用字符做下标是可行的，但是尽量别用。
 
-![image-20230228094122013](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230228094122013.png)
+![image-20230228094122013](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230228094122013.png)
 
-![image-20230228094110708](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230228094110708.png)
+![image-20230228094110708](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230228094110708.png)
 
 ## 8.2 数组运算
 
@@ -604,33 +603,33 @@ C语言函数里面的参数永远都是承接值。
 
 还可以：
 
-![image-20230228094346392](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230228094346392.png)
+![image-20230228094346392](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230228094346392.png)
 
-![image-20230228094407785](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230228094407785.png)
+![image-20230228094407785](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230228094407785.png)
 
 > 话是这么说，但是你也最好别用得上！
 >
-> ![image-20230228094606539](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230228094606539.png)
+> ![image-20230228094606539](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230228094606539.png)
 
 ### 一个tip：得到数组的length
 
 > 使用sizeof，之前一直都是傻傻地使用遍历下标。其实在编译的时候就已经知道大小了，而且这样得到的数组长度其可拓展性也很强，就是可以很灵活不用改来改去。
 
-![image-20230228095247338](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230228095247338.png)
+![image-20230228095247338](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230228095247338.png)
 
 ### b.数组的赋值与遍历：
 
 我们只能将数组中的值一个一个地传递给另外一个数组。
 
-![image-20230228100529192](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230228100529192.png)
+![image-20230228100529192](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230228100529192.png)
 
 遍历数组用的最多的还是for循环。4
 
-![image-20230228100536016](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230228100536016.png)
+![image-20230228100536016](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230228100536016.png)
 
 ### 数组作为参数的时候必须另外使用一个参数传递数组的大小，这时候就不能使用sizeof了。
 
-![image-20230228100623830](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230228100623830.png)
+![image-20230228100623830](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230228100623830.png)
 
 因为参数只表明你是什么类型，就是你在形参中表明 int a[10]这里面的10是没有意义的。
 
@@ -638,7 +637,7 @@ C语言函数里面的参数永远都是承接值。
 >
 > 就是形参传递的实际上是个指针！
 >
-> ![image-20230228101612578](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230228101612578.png)
+> ![image-20230228101612578](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230228101612578.png)
 
 ### c.二维数组
 
@@ -646,11 +645,11 @@ C语言函数里面的参数永远都是承接值。
 
 第一个代表行第二个代表列。
 
-![image-20230302101627670](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302101627670.png)
+![image-20230302101627670](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302101627670.png)
 
 初始化不能省略列数，可以不写行数。
 
-![image-20230302101743768](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302101743768.png)
+![image-20230302101743768](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302101743768.png)
 
 #### 2.一个小的知识点
 
@@ -658,13 +657,13 @@ C语言函数里面的参数永远都是承接值。
 
 所以在C语言中的a[i,j]其实就是a[j]，很不推荐使用。
 
-![image-20230302102425924](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302102425924.png)
+![image-20230302102425924](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302102425924.png)
 
 ### 测验8：
 
-![image-20230302144454215](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302144454215.png)
+![image-20230302144454215](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302144454215.png)
 
-![image-20230302144502723](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302144502723.png)
+![image-20230302144502723](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302144502723.png)
 
 # 第九节：指针
 
@@ -676,13 +675,13 @@ C语言函数里面的参数永远都是承接值。
 
 在内存的位置：
 
-![image-20230302150207082](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302150207082.png)
+![image-20230302150207082](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302150207082.png)
 
 会发现两个是紧挨着的，
 
 而且你后定义的变量的地址是相对来说“小”，相对靠下的，内部的；先定义的在最外边，这个是因为本地变量的存储方式是栈stack
 
-![image-20230302150326459](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302150326459.png)
+![image-20230302150326459](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302150326459.png)
 
 ## 9.2 指针
 
@@ -690,11 +689,11 @@ C语言函数里面的参数永远都是承接值。
 
 int* p实际上，是int *p，you should know my idea.
 
-![image-20230302151037441](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302151037441.png)
+![image-20230302151037441](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302151037441.png)
 
 从编译器你可以很好地看出来：
 
-![image-20230302151355745](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302151355745.png)
+![image-20230302151355745](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302151355745.png)
 
 ### *也是一个单目运算符。作用是取变量的值。
 
@@ -716,19 +715,19 @@ int* p实际上，是int *p，you should know my idea.
 >
 > 就是左边的是表达式运算的结果，而非变量；最后通过赋值=号赋给具体的数字值
 >
-> ![image-20230302152102916](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302152102916.png)
+> ![image-20230302152102916](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302152102916.png)
 >
 > 
 
 ### &与*
 
-> ![image-20230302152408473](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302152408473.png)
+> ![image-20230302152408473](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302152408473.png)
 
 # 很重要的东西：
 
 > 首先是个示例：
 >
-> ![image-20230302161234806](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302161234806.png)
+> ![image-20230302161234806](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302161234806.png)
 >
 > 关于指针的初步认识：
 >
@@ -768,7 +767,7 @@ int* p实际上，是int *p，you should know my idea.
 
 ## 9.3 数组是一种特殊的指针
 
-![image-20230302170508165](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302170508165.png)
+![image-20230302170508165](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302170508165.png)
 
 这个里面的东西很多：
 
@@ -788,7 +787,7 @@ int* p实际上，是int *p，you should know my idea.
 >
 > 不能被重新赋值
 
-![image-20230302170513676](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302170513676.png)
+![image-20230302170513676](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302170513676.png)
 
 ## 9.4 指针与const
 
@@ -798,45 +797,45 @@ int* p实际上，是int *p，you should know my idea.
 
 ## 9.5 指针运算的基础知识
 
-指针是可以做算是运算的![image-20230302195846670](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302195846670.png)
+指针是可以做算是运算的![image-20230302195846670](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302195846670.png)
 
 另外，这个是先++，但是*取的是p地址加之前的内容。
 
-![image-20230302195907432](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302195907432.png)
+![image-20230302195907432](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302195907432.png)
 
-![image-20230302200010161](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302200010161.png)
+![image-20230302200010161](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302200010161.png)
 
 ## 9.6 关于0地址-NULL指针
 
-![image-20230302200027566](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302200027566.png)
+![image-20230302200027566](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302200027566.png)
 
 ## 9.7 指针的类型
 
-![image-20230302200041590](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302200041590.png)
+![image-20230302200041590](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302200041590.png)
 
 面就是翁恺老师给出的一个具体的例子：
 
-![image-20230302200136078](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302200136078.png)
+![image-20230302200136078](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302200136078.png)
 
 就是我一开始p好好地指着我的 char *类型的数，我的p[1],p[2],p[3]和我自己的p[0]都是作为 char *的最小单元好好的；但是你突然一个int * 的q指针指向了我，那我的p[0].p[1],p[2],p[3]合在一起才是int *类型的一个最小单元。
 
 ## 9.8 重量级：malloc的使用！
 
-![image-20230302201940320](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302201940320.png)
+![image-20230302201940320](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302201940320.png)
 
-![image-20230302201946425](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302201946425.png)
+![image-20230302201946425](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302201946425.png)
 
-![image-20230302201957014](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302201957014.png)
+![image-20230302201957014](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302201957014.png)
 
-![image-20230302202002144](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302202002144.png)
+![image-20230302202002144](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302202002144.png)
 
-![image-20230302202009369](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302202009369.png)
+![image-20230302202009369](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302202009369.png)
 
 ## 课后题与题解：
 
 ### 第一题
 
-> ![image-20230302203715433](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302203715433.png)
+> ![image-20230302203715433](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302203715433.png)
 >
 > 解答：
 >
@@ -852,7 +851,7 @@ int* p实际上，是int *p，you should know my idea.
 
 ### 第二题：
 
-> ![image-20230302204115346](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302204115346.png)
+> ![image-20230302204115346](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302204115346.png)
 >
 > 这个的意思就是数组越界仍然可以访问，但是数组之外是什么东西就不好说了，反正指针计算是可以的
 
@@ -862,17 +861,17 @@ int* p实际上，是int *p，you should know my idea.
 >
 > 这个是可以动态申请，但是不能随时改变。
 >
-> ![image-20230302204441641](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302204441641.png)
+> ![image-20230302204441641](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302204441641.png)
 
 ## 9.9 视频课没有讲的
 
-![image-20230302204850491](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302204850491.png)
+![image-20230302204850491](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302204850491.png)
 
-![image-20230302204859465](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302204859465.png)
+![image-20230302204859465](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302204859465.png)
 
-![image-20230302204907030](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302204907030.png)
+![image-20230302204907030](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302204907030.png)
 
-![image-20230302204916678](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230302204916678.png)
+![image-20230302204916678](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230302204916678.png)
 
 # 第十节：字符串
 
@@ -882,15 +881,15 @@ int* p实际上，是int *p，you should know my idea.
 
 这个叫做字符数组，就是数组中的元素都是一个个的char
 
-![image-20230303092217067](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303092217067.png)
+![image-20230303092217067](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303092217067.png)
 
 我们可以看到的是，字符串与字符数组不同的地方就是在末尾加上了‘\0’
 
-![image-20230303092535396](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303092535396.png)
+![image-20230303092535396](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303092535396.png)
 
 所以字符串的定义就是：
 
-![image-20230303092639055](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303092639055.png)
+![image-20230303092639055](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303092639055.png)
 
 ## 10.1 字符串的定义与基本性质
 
@@ -898,29 +897,29 @@ int* p实际上，是int *p，you should know my idea.
 
 我们可以使用数组或者指针的性质。
 
-![image-20230303093127911](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303093127911.png)
+![image-20230303093127911](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303093127911.png)
 
 因为我们的字符串定义是‘c’单引号，对应的字符串就是“string”双引号，而且编译器会自动在末尾加上一个‘\.’
 
-![image-20230303093204714](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303093204714.png)
+![image-20230303093204714](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303093204714.png)
 
 由于字符串是数组，其理所当然地继承了数组的性质。
 
-![image-20230303093615590](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303093615590.png)
+![image-20230303093615590](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303093615590.png)
 
 ## 10.2 字符串的定义与修改
 
-![image-20230303094250142](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303094250142.png)
+![image-20230303094250142](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303094250142.png)
 
 ## 为什么我们不能试图对s所指的字符串做写入操作：
 
-![image-20230303094233512](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303094233512.png)
+![image-20230303094233512](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303094233512.png)
 
 就像上面演示的，我们的i是本地变量，而s和s2虽然是两个语句，但是作为字符串指针的他们指向同一个地方而且距离i的距离也很远。
 
 这是因为，我们的s和s2是在我d们程序中的代码段，这里的东西是只能读不能写入的。
 
-![image-20230303094415321](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303094415321.png)
+![image-20230303094415321](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303094415321.png)
 
 > ### 对应的比较正确的解释：
 >
@@ -930,7 +929,7 @@ int* p实际上，是int *p，you should know my idea.
 >
 > 这里又回到我们说的const类型与指针的关系，当const在前面的时候只是代表我们指向的内容不能被修改而指针是自由的，
 >
-> ![image-20230303095718770](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303095718770.png) 
+> ![image-20230303095718770](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303095718770.png) 
 >
 > 所以如果你想修改的话推荐使用char类型的数组形式进行定义。
 >
@@ -938,21 +937,21 @@ int* p实际上，是int *p，you should know my idea.
 >
 > 而string类型的指针定义的string是分配在常量区的。
 >
-> ![image-20230303100111158](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303100111158.png)
+> ![image-20230303100111158](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303100111158.png)
 >
 > 其实有点像这个：
 >
 > 所谓的char * 只是指针在栈里面，其中指向的东西字符串在常量区；而数组形式就简单暴力，我直接在stack栈上开辟一段地址空间，我们字符串就在我们自己这里，我们自己创建的，每一个都不一样所以可以修改。
 >
-> ![image-20230303100259986](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303100259986.png)
+> ![image-20230303100259986](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303100259986.png)
 >
 > 这里我们再给一个例子，你看两个字符数组的指向位置是不同的，而且正好，i s0[] s1[]的内存分配符合堆栈分配中的栈分配；越先定义的变量他的地址越靠“外面”。
 >
-> **![image-20230303100657759](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303100657759.png)**
+> **![image-20230303100657759](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303100657759.png)**
 
 这就要求我们灵活使用，其实归根到底就是数组还是指针。是对其中的内容做修改还是只读。
 
-![image-20230303101027074](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303101027074.png)
+![image-20230303101027074](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303101027074.png)
 
 ## char*是不是字符串
 
@@ -962,21 +961,21 @@ int* p实际上，是int *p，you should know my idea.
 
 而字符串也有可能是数组
 
-![image-20230303101143493](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303101143493.png)
+![image-20230303101143493](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303101143493.png)
 
 ## 10.3 字符串的输入与输出
 
-![image-20230303102031126](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303102031126.png)
+![image-20230303102031126](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303102031126.png)
 
 > 总的来说就是记得使用%s的时候是按照一个word进行读取的，默认是tab回车空格什么的
 >
-> ![image-20230303102057719](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303102057719.png)
+> ![image-20230303102057719](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303102057719.png)
 >
-> ![image-20230303102112114](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303102112114.png)
+> ![image-20230303102112114](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303102112114.png)
 >
 > 这个意思就是定义指针的时候最好初始化，实在不行你就指向NULL
 >
-> ![image-20230303102118877](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303102118877.png)
+> ![image-20230303102118877](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303102118877.png)
 
 ## 特别注意：
 
@@ -984,33 +983,33 @@ int* p实际上，是int *p，you should know my idea.
 
 所以：
 
-![image-20230303103502216](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303103502216.png)
+![image-20230303103502216](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303103502216.png)
 
 我给你一个例子自己体会就行。
 
-![image-20230303104041026](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303104041026.png)
+![image-20230303104041026](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303104041026.png)
 
 ## 课程题解：
 
-> ![image-20230303111702470](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303111702470.png)
+> ![image-20230303111702470](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303111702470.png)
 >
-> ![image-20230303111720156](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303111720156.png)
+> ![image-20230303111720156](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303111720156.png)
 >
-> ![image-20230303111744490](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303111744490.png)
+> ![image-20230303111744490](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303111744490.png)
 >
-> ![image-20230303111757980](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303111757980.png)
+> ![image-20230303111757980](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303111757980.png)
 >
 > 这里配上我自己的说明：
 >
-> ![image-20230303112105870](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303112105870.png)
+> ![image-20230303112105870](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303112105870.png)
 
 
 
 ## 10.4 一个注意点，字符串数组（类似于2维数组）
 
-![image-20230303112410867](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303112410867.png)
+![image-20230303112410867](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303112410867.png)
 
-![image-20230303112428371](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303112428371.png)
+![image-20230303112428371](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303112428371.png)
 
 就是你还是得清楚，数组肯定是在栈上开辟一段空间的，不是动态的 char const * 且每个项的地址空间定长；
 
@@ -1018,27 +1017,27 @@ int* p实际上，是int *p，you should know my idea.
 
 
 
-![image-20230303112415371](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303112415371.png)
+![image-20230303112415371](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303112415371.png)
 
 ## 程序参数：
 
-![image-20230303112631646](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303112631646.png)
+![image-20230303112631646](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303112631646.png)
 
 下面以翁恺老师的代码为例子：
 
-> ![image-20230303143836595](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303143836595.png)
+> ![image-20230303143836595](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303143836595.png)
 >
 > 第一轮演示
 >
 > 就是我们main的两个参数会读取你在命令行输入的东西并记录，其中第零（也就是第一个）就是你的执行命令，其他的就是别的char*的字符串
 >
-> ![image-20230303143900928](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303143900928.png)
+> ![image-20230303143900928](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303143900928.png)
 >
 > 第二轮演示
 >
 > 在Unix核中，程序可以修改启动命令，而main参数可以记录这一切
 >
-> ![image-20230303144023640](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303144023640.png)
+> ![image-20230303144023640](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303144023640.png)
 
 # 相关链接只是busybox
 
@@ -1052,19 +1051,19 @@ int* p实际上，是int *p，you should know my idea.
 
 shell,一个处在用户io（键盘）与程序之间的程序。
 
-![image-20230303145129889](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303145129889.png)
+![image-20230303145129889](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303145129889.png)
 
-![image-20230303145151626](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303145151626.png)
+![image-20230303145151626](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303145151626.png)
 
 > 例子：
 >
-> ![image-20230303145229841](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303145229841.png)
+> ![image-20230303145229841](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303145229841.png)
 >
-> ![image-20230303145251761](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303145251761.png)
+> ![image-20230303145251761](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303145251761.png)
 >
 > ctrl c （win）与crtl d进行退出
 >
-> ![image-20230303145317264](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303145317264.png)
+> ![image-20230303145317264](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303145317264.png)
 
 > 关于shell
 >
@@ -1074,55 +1073,55 @@ shell,一个处在用户io（键盘）与程序之间的程序。
 >
 > 然后你crtl加c或a或d什么的也都是shell进行的操作，将其具体赋值。
 >
-> ![image-20230303145518104](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303145518104.png)
+> ![image-20230303145518104](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303145518104.png)
 
 ## 10.6 string.h中的函数
 
-![image-20230303152258043](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303152258043.png)
+![image-20230303152258043](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303152258043.png)
 
 ## a. strlen string的长度（不包含‘’\0）
 
-![image-20230303152303335](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303152303335.png)
+![image-20230303152303335](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303152303335.png)
 
 ## b. strcmp
 
-![image-20230303152536255](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303152536255.png)
+![image-20230303152536255](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303152536255.png)
 
 > 代码实例：
 >
-> ![image-20230303153121130](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303153121130.png)
+> ![image-20230303153121130](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303153121130.png)
 >
 > 但是这里跟翁恺老师上面个的不一眼，这个编译版本的就是只有0、1、-1这三种结果，其实就是前面减去后面的ascll码的值。
 >
-> ![image-20230303153225044](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303153225044.png)然后可以说明多了个空格的情况：
+> ![image-20230303153225044](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303153225044.png)然后可以说明多了个空格的情况：
 >
 > 就是一个一个比较的。
 >
-> ![image-20230303153252974](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303153252974.png)
+> ![image-20230303153252974](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303153252974.png)
 
 ## c. strcpy
 
-![image-20230303160454811](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303160454811.png)
+![image-20230303160454811](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303160454811.png)
 
 > 附上我自己的代码
 >
-> ![image-20230303160552387](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303160552387.png)
+> ![image-20230303160552387](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303160552387.png)
 >
-> ![image-20230303160605927](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303160605927.png)
+> ![image-20230303160605927](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303160605927.png)
 >
 > 这个实现起来还是很容易的，主要还是得记住字符串的数组与指针性质
 
 复制一个的话记得先给内存空间。
 
-![image-20230303160650336](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303160650336.png)
+![image-20230303160650336](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303160650336.png)
 
 ## d. strcat
 
-![image-20230303160717971](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303160717971.png)
+![image-20230303160717971](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303160717971.png)
 
 ## e. 上述函数的安全版本：
 
-![image-20230303160915131](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303160915131.png)
+![image-20230303160915131](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303160915131.png)
 
 ## f. strchr
 
@@ -1130,15 +1129,15 @@ shell,一个处在用户io（键盘）与程序之间的程序。
 
 而strrchr意思就是从右边开始找。
 
-![image-20230303160922681](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303160922681.png)
+![image-20230303160922681](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303160922681.png)
 
 > 技巧：
 >
 > 如何找第二个符合的对应字符。
 >
-> ![image-20230303161742382](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303161742382.png)
+> ![image-20230303161742382](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303161742382.png)
 
-![image-20230303160926967](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303160926967.png)
+![image-20230303160926967](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303160926967.png)
 
 # 第十一节：结构类型
 
@@ -1146,41 +1145,41 @@ shell,一个处在用户io（键盘）与程序之间的程序。
 
 不太常用，就知道实际上就是const int的集合就行了。
 
-![image-20230303195451250](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303195451250.png)
+![image-20230303195451250](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303195451250.png)
 
 ## 11.2 结构体
 
 首先结构体的声明是要注意别遗漏其中的分号的。
 
-![image-20230303204331848](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303204331848.png)
+![image-20230303204331848](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303204331848.png)
 
 
 
-![image-20230303204405105](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303204405105.png)
+![image-20230303204405105](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303204405105.png)
 
 ## 重点结构体声明的形式：
 
-![image-20230303204459518](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303204459518.png)
+![image-20230303204459518](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303204459518.png)
 
 建议第一种，记住是 struct point 一体共同构成了一个结构体变量的声明。
 
 在初始化结构体的时候默认是按照顺序进行的原因就是stack式存储。
 
-![image-20230303205327477](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303205327477.png)
+![image-20230303205327477](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303205327477.png)
 
-![image-20230303205410697](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303205410697.png)
+![image-20230303205410697](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303205410697.png)
 
-![image-20230303205415563](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303205415563.png)
+![image-20230303205415563](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303205415563.png)
 
 ## 需要注意：结构体的运算
 
-![image-20230303205427497](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303205427497.png)
+![image-20230303205427497](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303205427497.png)
 
 千万别理解为别的东西，结构变量就是一个变量，里面存的东西就是其定义的各个变量，而且是编译的时候就有了。
 
 我们可以定义一个结构体的结构指针，它指向的是一个结构体的首地址。
 
-![image-20230303210255103](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303210255103.png)
+![image-20230303210255103](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303210255103.png)
 
 ## 11.3 结构体在函数中
 
@@ -1192,29 +1191,29 @@ shell,一个处在用户io（键盘）与程序之间的程序。
 >
 > 而char* a[] 等价于 const char* a[];
 
-![image-20230303214034407](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303214034407.png)
+![image-20230303214034407](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303214034407.png)
 
 我们当然可以进行不停的传递结构体的值并不断生成新的，这个就叫做传递结构体；
 
 但是结构体较大的时候最好还是使用指针。
 
-![image-20230303214044601](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303214044601.png)
+![image-20230303214044601](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303214044601.png)
 
-![image-20230303214157506](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303214157506.png)
+![image-20230303214157506](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303214157506.png)
 
-![image-20230303214205552](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230303214205552.png)
+![image-20230303214205552](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230303214205552.png)
 
 ## 11.4 结构中的结构
 
 其实你只要明白所谓结构其实就是也是有着一般变量类型int、float这样的性质就行了。
 
-![image-20230305101753035](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305101753035.png)
+![image-20230305101753035](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305101753035.png)
 
-![image-20230305101758278](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305101758278.png)
+![image-20230305101758278](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305101758278.png)
 
-![image-20230305101805956](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305101805956.png)
+![image-20230305101805956](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305101805956.png)
 
-![image-20230305101811862](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305101811862.png)
+![image-20230305101811862](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305101811862.png)
 
 ## 11.5 （我们）联合
 
@@ -1228,25 +1227,25 @@ shell,一个处在用户io（键盘）与程序之间的程序。
 >
 > 我们的typedef a b,就是相当于把中间的a，这个a变量类型都归到b上，就是我们的b就可以代表a，然后a也是能一直使用的。
 
-![image-20230305102027785](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305102027785.png)
+![image-20230305102027785](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305102027785.png)
 
 > 例如在这里我们的struct ADate 等价于 Date.
 
-![image-20230305102523590](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305102523590.png)
+![image-20230305102523590](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305102523590.png)
 
-![image-20230305102555848](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305102555848.png)
+![image-20230305102555848](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305102555848.png)
 
-![image-20230305102602759](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305102602759.png)
+![image-20230305102602759](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305102602759.png)
 
 ## b. 联合
 
-![image-20230305103357715](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305103357715.png)
+![image-20230305103357715](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305103357715.png)
 
-![image-20230305103402500](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305103402500.png)
+![image-20230305103402500](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305103402500.png)
 
-![image-20230305103408245](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305103408245.png)
+![image-20230305103408245](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305103408245.png)
 
-![image-20230305103413708](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305103413708.png)
+![image-20230305103413708](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305103413708.png)
 
 > 什么叫做小端，这里给出例子。
 >
@@ -1254,23 +1253,23 @@ shell,一个处在用户io（键盘）与程序之间的程序。
 >
 > 向内存中写入一个int数字然后char输出。
 >
-> ![image-20230305103609723](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305103609723.png)
+> ![image-20230305103609723](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305103609723.png)
 >
 > 按理说如果我们输入1234，16进制下为0x04D2,那如果一个按照char类型一个个byte输出应该是04D2
 >
-> ![image-20230305103545176](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305103545176.png)
+> ![image-20230305103545176](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305103545176.png)
 >
 > 但是输出为：D2040000，为什么会反过来呢？
 >
-> ![image-20230305103745480](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305103745480.png)
+> ![image-20230305103745480](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305103745480.png)
 >
 > 这是因为我们的CPU是小端的，他会进行一个“反转”
 >
-> ![image-20230305103830143](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305103830143.png)
+> ![image-20230305103830143](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305103830143.png)
 
 下面是我自己测试的，跟翁恺老师说的是一样的！
 
-![image-20230305104859070](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305104859070.png)
+![image-20230305104859070](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305104859070.png)
 
 # 第十二节：程序结构
 
@@ -1278,45 +1277,45 @@ shell,一个处在用户io（键盘）与程序之间的程序。
 
 在函数内部的叫做本地变量，只能在他自己的函数段内存在。
 
-![image-20230305105518854](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305105518854.png)
+![image-20230305105518854](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305105518854.png)
 
-![image-20230305105524559](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305105524559.png)
+![image-20230305105524559](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305105524559.png)
 
 注意被隐藏不是被覆盖，只是在有新定义的同名变量的时候，全局变量就不掺和了，我不被读我也不被写；然后你自己的函数内部的同名变量跟之前一样当作局部本地变量处理，作用域只在自己的内部。
 
-![image-20230305105533740](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305105533740.png)
+![image-20230305105533740](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305105533740.png)
 
 > 下面是依托例子：
 >
 > f1:
 >
-> ![image-20230305110524891](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305110524891.png)
+> ![image-20230305110524891](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305110524891.png)
 >
 > f2:
 >
-> ![image-20230305110544836](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305110544836.png)
+> ![image-20230305110544836](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305110544836.png)
 >
 > f3:
 >
-> ![image-20230305110621351](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305110621351.png)
+> ![image-20230305110621351](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305110621351.png)
 
 ## 12.1 静态本地变量
 
-![image-20230305111056252](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305111056252.png)
+![image-20230305111056252](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305111056252.png)
 
-![image-20230305111102405](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305111102405.png)
+![image-20230305111102405](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305111102405.png)
 
-![image-20230305111046872](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305111046872.png)
+![image-20230305111046872](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305111046872.png)
 
 ## 真面目！static int其实就相当于全局的int：
 
 > 你会发现：static int all 与gAll的地址是相邻的 => 他们都分布在全局变量区
 >
-> ![image-20230305111525172](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305111525172.png)
+> ![image-20230305111525172](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305111525172.png)
 
 然后为什么我们需要这个而不是直接写全局变量呢？
 
-![image-20230305113727760](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305113727760.png)
+![image-20230305113727760](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305113727760.png)
 
 还是刚才那张课件，本地static变量的生存期相当于全局变量，但是他的作用域只有其外面的函数部分内部。
 
@@ -1324,11 +1323,11 @@ shell,一个处在用户io（键盘）与程序之间的程序。
 
 > 返回一个本地变量的地址是有风险的，因为你的本地变量是动态分配到stack中的，在这个函数结束之后他的内存空间会被os重新分配，就像这个所演示的，在这之后的g()函数中的K在f()函数结束之后同样得到了i的地址并对*p所指向的地址的内容进行了修改写入。
 >
-> ![image-20230305114715975](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305114715975.png)
+> ![image-20230305114715975](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305114715975.png)
 
-![image-20230305114609144](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305114609144.png)
+![image-20230305114609144](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305114609144.png)
 
-![image-20230305114613649](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305114613649.png)
+![image-20230305114613649](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305114613649.png)
 
 ## 12.2 编译预处理与宏
 
@@ -1336,85 +1335,85 @@ shell,一个处在用户io（键盘）与程序之间的程序。
 
 #define就是用来定义一个宏。
 
-![image-20230305165135574](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305165135574.png)
+![image-20230305165135574](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305165135574.png)
 
-![image-20230305165155771](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305165155771.png)
+![image-20230305165155771](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305165155771.png)
 
-![image-20230305165333228](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305165333228.png)
+![image-20230305165333228](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305165333228.png)
 
 >  宏中宏也会替换
 >
-> ![image-20230305165610952](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305165610952.png)
+>  ![image-20230305165610952](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305165610952.png)
 >
-> 多行定义用 \ 表是没有完
+>  多行定义用 \ 表是没有完
 >
-> ![image-20230305165654499](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305165654499.png)
+>  ![image-20230305165654499](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305165654499.png)
 
-![image-20230305165337637](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305165337637.png)
+![image-20230305165337637](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305165337637.png)
 
 C的编译器中带有“翅膀”的预定义的宏
 
-![image-20230305165712470](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305165712470.png)
+![image-20230305165712470](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305165712470.png)
 
 这个就相当于内置的系统可以得到的参数，文件地址、行数、时间啊什么的。
 
-![image-20230305165804550](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305165804550.png)
+![image-20230305165804550](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305165804550.png)
 
 ## 12.3 带参数的宏
 
-![image-20230305165940599](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305165940599.png)
+![image-20230305165940599](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305165940599.png)
 
-> ![image-20230305170019071](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305170019071.png)
+> ![image-20230305170019071](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305170019071.png)
 >
-> ![image-20230305170031183](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305170031183.png)
+> ![image-20230305170031183](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305170031183.png)
 
 但是容易犯错：
 
-![image-20230305170056765](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305170056765.png)
+![image-20230305170056765](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305170056765.png)
 
-> ![image-20230305170137189](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305170137189.png)
+> ![image-20230305170137189](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305170137189.png)
 >
 > 查看中间编译文件：
 >
-> ![image-20230305170147861](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305170147861.png)
+> ![image-20230305170147861](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305170147861.png)
 
 因为宏就是真的很简单的text的替换，非常之蠢，所以得多加括号。
 
-![image-20230305170102459](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305170102459.png)
+![image-20230305170102459](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305170102459.png)
 
-![image-20230305170334892](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305170334892.png)
+![image-20230305170334892](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305170334892.png)
 
 但是真的得记住不能加分号！因为还是会傻傻地文本替换
 
-![image-20230305170340480](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305170340480.png)
+![image-20230305170340480](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305170340480.png)
 
-![image-20230305170345264](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305170345264.png)
+![image-20230305170345264](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305170345264.png)
 
 宏没有类型检查，C++中的inline有相关的补足。
 
 ## 一个小测验！真的得记住先换进去然后再进行++的运算！
 
-> ![image-20230305171230161](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305171230161.png)
+> ![image-20230305171230161](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305171230161.png)
 
 ## 12.4 大程序结构
 
 ## 介绍：
 
-![image-20230305173407010](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305173407010.png)
+![image-20230305173407010](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305173407010.png)
 
-![image-20230305173417405](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305173417405.png)
+![image-20230305173417405](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305173417405.png)
 
-![image-20230305173426726](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305173426726.png)
+![image-20230305173426726](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305173426726.png)
 
 ## 头文件：
 
-![image-20230305174041593](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305174041593.png)
+![image-20230305174041593](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305174041593.png)
 
-![image-20230305174047126](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305174047126.png)
+![image-20230305174047126](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305174047126.png)
 
 ## 到底<>还是""
 
-![image-20230305174050916](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305174050916.png)
+![image-20230305174050916](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305174050916.png)
 
 ## include的误区！
 
@@ -1422,39 +1421,39 @@ C的编译器中带有“翅膀”的预定义的宏
 
 就是.h就是文件头，给出的就是正确的函数原型
 
-![image-20230305174056894](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305174056894.png)
+![image-20230305174056894](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305174056894.png)
 
-![image-20230305174241597](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305174241597.png)
+![image-20230305174241597](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305174241597.png)
 
 就是static始终就是把你框在这一层了，不能再出去。（指的是作用域）因为全局来说其生存域还是跟原来一样。
 
-![image-20230305174310626](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305174310626.png)
+![image-20230305174310626](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305174310626.png)
 
 ## 12.5 声明
 
 全局变量的声明：还是在.h文件中进行准备。
 
-![image-20230305175057628](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305175057628.png)
+![image-20230305175057628](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305175057628.png)
 
 声明不产生代码；
 
 函数、全局变量产生代码；
 
-![image-20230305175102947](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305175102947.png)
+![image-20230305175102947](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305175102947.png)
 
 只有声明会放在头文件
 
-![image-20230305175108628](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305175108628.png)
+![image-20230305175108628](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305175108628.png)
 
-> ![image-20230305175116422](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305175116422.png)
+> ![image-20230305175116422](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305175116422.png)
 >
 > 因为重复引入头文件会不停地编译结构体！
 
 所以我们需要标准的头文件
 
-![image-20230305175122542](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305175122542.png)
+![image-20230305175122542](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305175122542.png)
 
-![image-20230305175126318](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305175126318.png)
+![image-20230305175126318](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305175126318.png)
 
 # 第十三节：文件
 
@@ -1470,41 +1469,41 @@ C的编译器中带有“翅膀”的预定义的宏
 >
 > ​    100 = 4           101 = 5
 
-> ![image-20230305205103309](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305205103309.png)
+> ![image-20230305205103309](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305205103309.png)
 
 ## 按位异或
 
-![image-20230305205536285](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305205536285.png)
+![image-20230305205536285](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305205536285.png)
 
 ## 移位运算
 
-![image-20230305205752773](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305205752773.png)
+![image-20230305205752773](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305205752773.png)
 
 ### 左移
 
 在C语言中的 int 的 << 的等价式子
 
-![image-20230305205944553](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305205944553.png)
+![image-20230305205944553](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305205944553.png)
 
 ### 右移
 
-![image-20230305210059005](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305210059005.png)
+![image-20230305210059005](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305210059005.png)
 
 ## 具体用处
 
 可以做个输出二进制的小函数
 
-![image-20230305211950666](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305211950666.png)
+![image-20230305211950666](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305211950666.png)
 
 位段
 
-![image-20230305212017442](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305212017442.png)
+![image-20230305212017442](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305212017442.png)
 
-![image-20230305212022958](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305212022958.png)
+![image-20230305212022958](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305212022958.png)
 
 > 这个具体看演示：
 >
-> ![image-20230305212039772](C:\Users\18314\AppData\Roaming\Typora\typora-user-images\image-20230305212039772.png)
+> ![image-20230305212039772](C:\Users\18314\OneDrive\桌面\修正.assets\image-20230305212039772.png)
 
 # 第十四节：链表
 
