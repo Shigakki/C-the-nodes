@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/eleven/getTomorrow.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/five/five.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/five/maxGongyueshu.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/linkedList/linked_list.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/resizableArray/array.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/six/six.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ten/strchr.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/twelve/twelveThree.c" charset="UTF-8" />
+  </component>
+</project>
